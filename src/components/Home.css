@@ -1,0 +1,149 @@
+.main-div{
+    margin: 64px;
+    display: flex;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 416px;
+    height: 952px;
+    border-right: 1px solid #6E80A4;
+}
+.search{
+   
+    display: flex;
+    align-items: center;
+    margin: 8px 16px;
+    border-radius: 22px;
+    
+    
+    background-color:#F6F6F6;
+    
+}
+.search>input{
+    width: 384px;
+    height: 40px;
+    border-radius: 22px;
+    border: none;
+    background-color:#F6F6F6;
+    padding-left: 16px;
+}
+.listitem{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.avatar{
+    /* width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    background-color:#6E80A4 ;
+    color: #FFFFFF;
+*/
+width: 48px;
+    height: 48px;
+    background-color:#6E80A4 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    color: #FFFFFF;
+} 
+
+.countdiv{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     width: 18px;
+    height: 18px;
+    border-radius: 100px;
+    background-color:#3758F9 ;
+    color: #FFFFFF;
+
+}
+ul{
+    list-style: none;
+}
+.username{
+    font-weight: 800;
+}
+.subpart{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.subpart1{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    
+}
+.middleupper{
+    width:976px;
+    height: 66px;
+    display: flex;
+    
+    
+    align-items: center;
+    gap: 5px;
+    
+    
+    background-color: #fefdfd;
+}
+.userimage{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px; 
+
+     
+}
+.middlelower{
+    width: 976px;
+    height: 100%;
+ background-color: #F6F6F6   
+}
+.leftmsg{
+    width: 40%;
+    background-color: #FFFFFF;
+    border-radius:10px 10px 0 10px ;
+    padding:0 5px;
+}
+.rightmsg{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    flex-wrap: wrap;
+    width: auto;
+    max-width: 50%;
+    background-color: #DEE9FF;
+    border-radius:10px 10px 10px 0 ;
+    padding: 5px;
+    position: absolute;
+    right:64px;
+}
+.msginput{
+    display: flex;
+    gap: 10px;
+    width: 976px;
+    position:fixed;
+    bottom:64px;
+    align-items: center;
+    
+}
+.msginput input{
+    border: none;
+    width: 900px;
+}
+
+.right{
+    display: none;
+}
