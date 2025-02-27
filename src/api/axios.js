@@ -1,4 +1,4 @@
-const base_api='http://localhost:4000'
+const base_api='https://chatapp-backend-u3ha.onrender.com'
 
 
 export{base_api}
